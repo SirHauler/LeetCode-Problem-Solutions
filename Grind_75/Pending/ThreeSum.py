@@ -4,6 +4,9 @@
 ### all combinations for a fixed values but all duplicate values next to each
 ## other are skipped in order to optimize!
 
+
+#### Medium ####
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         save = {}
