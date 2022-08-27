@@ -2,7 +2,6 @@
 ## The best solution involves using counting sort (and two extra arrays) to properly sort the values
 ## before using them regard -> https://www.youtube.com/watch?v=OKd534EWcdk
 
-
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:
         save = {}
