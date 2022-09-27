@@ -35,7 +35,7 @@ int climbStairs (int n) {
     return recurStairs(n + 1, m) 
     
 }
-
+// fibonacci sequence
 int recurStairs (int n) {
     if (n <= 1) {
         return n;
@@ -48,4 +48,12 @@ int recurStairs (int n) {
     m[n] = recurStairs(n-1, m) + recurStairs(n-2, m); 
 
     return m[n]; 
+}
+
+// last but not least there is a better solution
+
+
+
+int climbStairs(int n) {
+    
 }
