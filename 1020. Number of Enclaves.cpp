@@ -8,6 +8,7 @@ public:
         bfs(i - 1, j, grid); 
         bfs(i, j - 1, grid);
     }
+
     int numEnclaves(vector<vector<int>>& grid) {
         int m = grid[0].size(); 
         int n = grid.size();
@@ -17,8 +18,7 @@ public:
                 if (i == 0 || j == 0 || i == n - 1 || j == m - 1) {
                     if (grid[i][j] == 1) {
                         bfs(i, j, grid);
-                    }
-                    
+                    }   
                 }
             }
         }
@@ -32,5 +32,5 @@ public:
 
         return cnt;  
     }
-
+    
 };
