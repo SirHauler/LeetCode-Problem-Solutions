@@ -1,3 +1,6 @@
+#include <vector>
+
+
 class Car {
 public:
     Car(int pos, int speed) {
@@ -7,6 +10,7 @@ public:
     int speed; 
     int pos;
 };
+
 
 class Solution {
 public:
